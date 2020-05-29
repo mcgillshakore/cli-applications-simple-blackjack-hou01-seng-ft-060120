@@ -34,6 +34,8 @@ end
 
 def hit?
  
+ prompt_user
+ 
 end
 
 def invalid_command
