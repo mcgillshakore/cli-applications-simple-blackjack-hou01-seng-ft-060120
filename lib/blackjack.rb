@@ -38,7 +38,10 @@ def hit?(cards_total)
  if user_input == 'h'
    new_card = deal_card
    cards_total += new_card
+    elsif user_input == 's'
+    cards_total
   else
+    puts "Please enter a valid command"
  end
 end
 
