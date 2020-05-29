@@ -62,7 +62,7 @@ def runner
   cards_total = initial_round
   prompt_user
   get_user_input
-  hit?(cards_total)
+  cards_total= hit?(cards_total)
   if display_card_total(cards_total) > 21
   end_game
   end
