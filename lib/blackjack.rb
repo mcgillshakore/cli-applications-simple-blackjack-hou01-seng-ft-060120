@@ -40,7 +40,7 @@ def hit?(cards_total)
    cards_total += new_card
     elsif user_input == 's'
    cards_total
-  else user_input != 'h'||'s'
+  else
     invalid_command
   end
  end
